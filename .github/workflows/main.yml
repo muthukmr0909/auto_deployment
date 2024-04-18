@@ -5,6 +5,7 @@ on:
     branches: [ main ] # The branch we need to watch on push
   pull_request:
     branches: [ main ] # The branch we need to watch on pull request merge
+    types: [closed]
 
 jobs:
   deploy:
